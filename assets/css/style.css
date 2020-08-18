@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: slateblue;
+}
+.cabecalho{
+    width: 100vw;
+    height: 150px;
+    margin: 0;
+    background-color:springgreen;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;  
+    width: 100vw;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    background-color:darkslateblue;
+    width: max-content;
+    height: max-content;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    margin-top: -25px;
+}
+.card{
+    height: 160px ;
+    width: 120px;
+    background-color: sienna;
+    border-radius: 10px;
+    align-content: center;
+    margin: 20px;
+    
+}
+.card label{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: springgreen;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 10px;
+}
+.card input{
+    display: block;
+    width: 70%;
+    height: 50%;
+    margin: auto;
+    border: none;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    appearance: none;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center; 
+    margin: 5px; 
+}
+.buttons button{
+    margin: 3px;
+    border: none;
+    background-color: darkorange;
+    color: #ffffff;
+    font-size: 15px;
+}
+.calcular{
+    background-color: darkslateblue;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+}
